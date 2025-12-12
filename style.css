@@ -31,6 +31,11 @@ body {
     max-width: 1281px;
 }
 
+
+/* --------------------------------------------------------------- */
+
+/*              Header                   */
+
 .header__content {
     display: flex;
     justify-content: space-between;
@@ -60,6 +65,10 @@ body {
     list-style: none;
 }
 
+.header__nav-item:last-child {
+    margin-right: 32px;
+}
+
 .header__nav-link {
     text-decoration: none;
     line-height: 28px;
@@ -67,25 +76,37 @@ body {
 }
 
 .header__divider {
-    width: 2px;
-    height: 40px;
-    background-color: #d1d1d1;
+    width: 1px;
+    height: 42px;
+    opacity: 0.36;
+    background: #939191;
+
 }
 
 .header__info {
-    margin-left: 64px;
+    display: flex;
+    margin-left: 32px;
+    align-items: center;
+    padding: 18px 0;
 }
 
 .header__info-logo {
-    
+    margin-right: 14px;
 }
 
 .header__info-title {
 
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    line-height: 24px;
+    opacity: 0.7;
 }
 
 .header__info-number {
-
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 175%;
 }
 
 
