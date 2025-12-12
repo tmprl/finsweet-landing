@@ -38,7 +38,6 @@ body {
 
 .header__content {
     display: flex;
-    justify-content: space-between;
     align-items: center;
 }
 
@@ -93,9 +92,12 @@ body {
     margin-right: 14px;
 }
 
-.header__info-title {
+.header__info-text {
     display: flex;
     flex-direction: column;
+}
+
+.header__info-title {
     font-weight: 500;
     line-height: 24px;
     opacity: 0.7;
