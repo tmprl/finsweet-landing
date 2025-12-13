@@ -10,6 +10,7 @@
     --light-grey: #f2f2f2;
     --steelgrey: #e2e6e9;
     --white: #ffffff;
+    --transtion: all .3s;
 }
 
 
@@ -41,7 +42,9 @@ body {
 
 
 .header {
+
 }
+
 .header__top {
 
 }
@@ -52,7 +55,9 @@ body {
     align-items: center;
     padding-top: 18px;
 }
+
 .header__logo {
+
 }
 
 .header__nav-menu {
@@ -70,6 +75,13 @@ body {
 .header__nav-link {
     text-decoration: none;
     color: var(--black);
+
+    transition: var(--transtion);
+}
+
+.header__nav-link:hover {
+    color: hsla(159, 100%, 30%);
+    
 }
 
 .header__divider {
@@ -83,21 +95,27 @@ body {
     display: flex;
     align-items: center;
 }
+
 .header__help-logo {
+
 }
+
 .header__help-img {
     margin-right: 14px;
 }
+
 .header__help-text {
     display: flex;
     flex-direction: column;
     
 }
+
 .header__help-title {
     opacity: 0.7;
     line-height: 24px;
     font-weight: 500;
 }
+
 .header__help-number {
     font-size: 18px;
     line-height: 175%;
