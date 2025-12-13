@@ -6,7 +6,7 @@
     --primary: #ff6433;
     --mint: #00d289;
     --black: #1e1b1b;
-    --grey: #939191;
+    --gry: #939191;
     --light-grey: #f2f2f2;
     --steelgrey: #e2e6e9;
     --white: #ffffff;
@@ -19,95 +19,87 @@ body {
     color: var(--black);
 }
 
-
 .wrapper {
     min-height: 100%;
     width: 100%;
     overflow: hidden;
 }
 
-.header__container {
-    margin: 0 auto;
+.container {
     max-width: 1281px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.logo {
 }
 
 
 /* --------------------------------------------------------------- */
 
-/*              Header                   */
+/*     -!-         Header     -!-            */
 
-.header__content {
-    display: flex;
-    align-items: center;
+
+.header {
+}
+.header__top {
+
 }
 
-.header__logo-name {
-    text-decoration: none;
-    color: var(--black);
-    font-size: 24px;
-    font-weight: 900;
-}
-.header__nav {
-    align-items: center;
+.header__top-content {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+}
+.header__logo {
+}
+
+.header__nav-menu {
     margin-left: auto;
-}
 
+}
 .header__nav-list {
     display: flex;
-    gap: 40px;
 }
-
 .header__nav-item {
+    margin-left: 40px;
     list-style: none;
-}
-
-.header__nav-item:last-child {
-    margin-right: 32px;
 }
 
 .header__nav-link {
     text-decoration: none;
-    line-height: 28px;
     color: var(--black);
 }
 
 .header__divider {
-    width: 1px;
+    border: 1px solid #939191;
+    border-radius: 1px;
     height: 42px;
+    margin: 0 32px;
     opacity: 0.36;
-    background: #939191;
-    border-radius: 5px;
-
 }
-
-.header__info {
+.header__user-help {
     display: flex;
-    margin-left: 32px;
     align-items: center;
-    padding: 18px 0;
 }
-
-.header__info-logo {
+.header__help-logo {
+}
+.header__help-img {
     margin-right: 14px;
 }
-
-.header__info-text {
+.header__help-text {
     display: flex;
     flex-direction: column;
+    
 }
-
-.header__info-title {
-    font-weight: 500;
-    line-height: 24px;
+.header__help-title {
     opacity: 0.7;
-    cursor: default;
+    line-height: 24px;
+    font-weight: 500;
 }
-
-.header__info-number {
+.header__help-number {
     font-size: 18px;
-    font-weight: 600;
     line-height: 175%;
-}
-
+}   
 
