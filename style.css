@@ -134,6 +134,80 @@ body {
 /* -!-   header-body -!- */
 
 
+.header__body {
+    padding-top: 80px;
+}
+
+.header__body-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__body-main {
+    
+}
+.header_body-title {
+    max-width: 600px;
+    font-size: 32px;
+    text-align: left;
+    letter-spacing: -1.92px;
+    line-height: 84px;
+    font-weight: 800;
+}
+
+.header__body-text {
+}
+.header__body-user-buttons {
+}
+.header__body-button {
+}
+.button {
+}
+.header__body-play {
+}
+.header__body-info {
+}
+.header__info-logo {
+}
+.header_info-title {
+}
+.header__info-text-upper {
+}
+.header__info-text-bottom {
+}
+.header__body-side {
+}
+.header__body-image {
+}
+.header__body-main-image {
+
+}
+.header__main-image {
+    border-radius: 5px;
+}
+.header__body-image-info {
+}
+.header__image-service {
+}
+.header__service-title {
+}
+.header__service-text {
+}
+.header__image-review {
+}
+.header__review-number {
+}
+.header__review-text {
+}
+.header__review-icons {
+}
+.header__star {
+}
+.full {
+}
+.half {
+}
+
 
 
 
