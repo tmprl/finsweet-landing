@@ -8,7 +8,7 @@
     --primary: #ff6433;
     --mint: #00d289;
     --black: #1e1b1b;
-    --gry: #939191;
+    --gray: #939191;
     --light-grey: #f2f2f2;
     --steelgrey: #e2e6e9;
     --white: #ffffff;
@@ -171,7 +171,7 @@ body {
 .button {
 }
 .header__body-play {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     font-weight: 500;
     font-family: "Roboto", sans-serif;
@@ -185,14 +185,22 @@ body {
 .header__body-info {
     display: flex;
     margin-top: 48px;
+    align-items: center;
 }
+
 .header__info-logo {
+    margin-right: 13px;
 }
 .header_info-title {
 }
 .header__info-text-upper {
+    color: var(--gray);
+    font-weight: 500;
+    line-height: 24px;
 }
 .header__info-text-bottom {
+    line-height: 175%;
+    font-size: 18px;
 }
 .header__body-side {
 }
