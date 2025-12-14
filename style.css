@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 
 :root {
     --secondary: #661ce7;
@@ -153,19 +155,36 @@ body {
     letter-spacing: -1.92px;
     line-height: 84px;
     font-weight: 800;
+
+    margin-bottom: 32px;
 }
 
 .header__body-text {
 }
 .header__body-user-buttons {
+    display: flex;
+    align-items: center;
 }
 .header__body-button {
+    margin-right: 33px;
 }
 .button {
 }
 .header__body-play {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.header__body-play svg {
+    margin-right: 8px;
 }
 .header__body-info {
+    display: flex;
+    margin-top: 48px;
 }
 .header__info-logo {
 }
