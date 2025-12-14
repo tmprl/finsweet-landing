@@ -32,9 +32,16 @@ body {
     padding: 0 15px;
 }
 
-.logo {
-    
+.button {
+    display: inline-flex;
+    padding: 16px 40px;
+    background: var(--primary);
+    border-radius: 12px;
+    color: var(--white);
+    text-decoration: none;
+    line-height: 1.75;
 }
+
 
 
 /* --------------------------------------------------------------- */
