@@ -202,9 +202,12 @@ body {
     line-height: 175%;
     font-size: 18px;
 }
+
 .header__body-side {
 }
 .header__body-image {
+    position: relative;
+    display: inline-block
 }
 .header__body-main-image {
 
@@ -213,26 +216,103 @@ body {
     border-radius: 5px;
 }
 .header__body-image-info {
+    position: absolute;
+    display: flex;
+    left: -40px;
+    bottom: 375px;
+    color: var(--black);
+    gap: 20px;
 }
 .header__image-service {
+    display: flex;
+    align-items: center;
+    border-radius: 59px;
+    background: linear-gradient(139deg, #FFF -38.72%, #FFF 153.95%);
+    border: 12px solid rgba(225, 225, 225, 0.43);
+    padding: 15px 40px 15px 15px;
 }
-.header__service-title {
+
+.service-badge{
+  width: 70px;       
+  height: 70px;   
+  border-radius: 50%;
+  background: #5CBA99;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+
+  color: #fff;
+  margin-right: 14px;
 }
+
+.service-badge__num {
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: -0.72px;
+}
+
+.service-badge_unit {
+    display: flex;
+    position: relative;
+    
+}
+
+
+
 .header__service-text {
+    display: flex;
+    align-items: center;
+    
+    line-height: 36px;
+    font-size: 24px;
+    letter-spacing: -0.72px;
 }
 .header__image-review {
+    position: relative;
+    top: 200px;
+
+    display: flex;
+    align-items: center;
+    border-radius: 59px;
+    background: linear-gradient(139deg, #FFF -38.72%, #FFF 153.95%);
+    border: 12px solid rgba(225, 225, 225, 0.43);
+    padding: 15px 25px;
 }
 .header__review-number {
 }
 .header__review-text {
 }
 .header__review-icons {
+
 }
 .header__star {
+  width: 36px;
+  height: 36px;
+  background: #e0e0e0;
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
 }
-.full {
+.header__start.full {
+    background: #ffb84d;
 }
-.half {
+.header__start.half {
+    background: linear-gradient(
+    to right,
+    #ffb84d 50%,
+    #e0e0e0 50%
+  );
 }
 
 
